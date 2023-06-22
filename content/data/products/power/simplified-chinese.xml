@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Power</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  
+   <!-- CSG Power -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+
+	   <option id="1"><textbox value="45" id="1"/> W 交流适配器，<textbox value="4.5" id="2"/> 毫米 <br/></option>
+       <option id="2"><textbox value="65" id="3"/> W 交流适配器，<textbox value="4.5" id="4"/> 毫米 <br/></option>
+
+   </product:techspecs>
+   
+   <!-- SnP Power -->
+   <product:techspecs filter="$(product.group) $in$ ['snp']">
+
+     额定电压<br/>
+     <textbox value="100" id="1"/>至 <textbox value="240" id="2"/>VAC / <textbox value="50" id="3"/>或 <textbox value="60" id="4"/>Hz ± <textbox value="3" id="5"/>Hz / <textbox value="1" id="6"/>A<dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+	 功耗（工作状态）<br/>
+	 <textbox value="20" id="7"/>W<dropdownlist id="pw-option:2"/> / <textbox value="45" id="8"/>W<dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 功耗（待机/睡眠状态）<br/>
+	 小于 <textbox value="0.3" id="9"/>W <br/>
+
+   </product:techspecs>
+   
+   <!-- C.Champ Power -->
+   <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+
+      额定电压<br/>
+     <textbox value="100" id="1"/>至 <textbox value="240" id="2"/>VAC / <textbox value="50" id="3"/>或 <textbox value="60" id="4"/>Hz ± <textbox value="3" id="5"/>Hz / <textbox value="1" id="6"/>A<dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+	 功耗（工作状态）<br/>
+	 <textbox value="20" id="7"/>W<dropdownlist id="pw-option:2"/> / <textbox value="45" id="8"/>W<dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 功耗（待机/睡眠状态）<br/>
+	 小于 <textbox value="0.3" id="9"/>W <br/>
+
+   </product:techspecs>
+  </generic:content>
+</generic:root>

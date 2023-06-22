@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Power</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  
+   <!-- CSG Power -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+
+	  <option id="1"><textbox value="45" id="1"/> W napájací adaptér, <textbox value="4.5" id="2"/> mm <br/></option>
+      <option id="2"><textbox value="65" id="3"/> W napájací adaptér, <textbox value="4.5" id="4"/> mm <br/></option>
+
+   </product:techspecs>
+   
+   <!-- SnP Power -->
+   <product:techspecs filter="$(product.group) $in$ ['snp']">
+
+     Požadované napätie<br/>
+     <textbox value="100-240" id="1"/> V striedavého prúdu / <textbox value="50" id="2"/> alebo <textbox value="60" id="3"/> Hz ± <textbox value="3" id="4"/> Hz / <textbox value="1" id="5"/> A <dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+     Spotreba energie (prevádzková)<br/>
+	 <textbox value="20" id="6"/> W <dropdownlist id="pw-option:2"/>/<textbox value="45" id="7"/> W <dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 Spotreba energie v pohotovostnom režime/režime spánku<br/>
+	 Menej ako <textbox value="0,3" id="8"/> W <br/>
+
+	</product:techspecs>
+	
+	<!-- C.Champ Power -->
+    <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+
+     Požadované napätie<br/>
+     <textbox value="100-240" id="1"/> V striedavého prúdu / <textbox value="50" id="2"/> alebo <textbox value="60" id="3"/> Hz ± <textbox value="3" id="4"/> Hz / <textbox value="1" id="5"/> A <dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+     Spotreba energie (prevádzková)<br/>
+	 <textbox value="20" id="6"/> W <dropdownlist id="pw-option:2"/>/<textbox value="45" id="7"/> W <dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 Spotreba energie v pohotovostnom režime/režime spánku<br/>
+	 Menej ako <textbox value="0,3" id="8"/> W <br/>
+
+	</product:techspecs>
+  </generic:content>
+</generic:root>

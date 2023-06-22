@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+   <product:techspecs>
+	   <option id="1">Batería de <dropdownlist id="cell-option:1"/>,  <textbox value="51" id="1"/> Wh, <dropdownlist id="battery-option:1"/><br/></option>
+       <option id="2">Batería de <dropdownlist id="cell-option:2"/>,  <textbox value="68" id="2"/> Wh, <dropdownlist id="battery-option:2"/><br/></option>
+   </product:techspecs>
+  </generic:content>
+</generic:root> 
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Power</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  
+   <!-- CSG Power -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+
+	   <option id="1">Адаптер переменного тока мощностью <textbox value="45" id="1"/> Вт, <textbox value="4,5" id="2"/> мм <br/></option>
+       <option id="2">Адаптер переменного тока мощностью <textbox value="65" id="3"/> Вт, <textbox value="4,5" id="4"/> мм <br/></option>
+
+   </product:techspecs>
+
+   <!-- SnP Power -->
+   <product:techspecs filter="$(product.group) $in$ ['snp']">
+
+     Требуемое напряжение<br/>
+     <textbox value="100-240" id="1"/> В~ / <textbox value="50" id="2"/> или <textbox value="60" id="3"/> Гц ± <textbox value="3" id="4"/> Гц / <textbox value="1" id="5"/> A <dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+     Энергопотребление (в рабочем режиме)<br/>
+	 <textbox value="20" id="6"/> Вт <dropdownlist id="pw-option:2"/> / <textbox value="45" id="7"/> Вт <dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 Энергопотребление в режиме ожидания/сна<br/>
+	 Менее <textbox value="0,3" id="8"/> Вт <br/>
+
+   </product:techspecs>
+   
+   <!-- C.Champ Power -->
+   <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+
+     Требуемое напряжение<br/>
+     <textbox value="100-240" id="1"/> В~ / <textbox value="50" id="2"/> или <textbox value="60" id="3"/> Гц ± <textbox value="3" id="4"/> Гц / <textbox value="1" id="5"/> A <dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+     Энергопотребление (в рабочем режиме)<br/>
+	 <textbox value="20" id="6"/> Вт <dropdownlist id="pw-option:2"/> / <textbox value="45" id="7"/> Вт <dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 Энергопотребление в режиме ожидания/сна<br/>
+	 Менее <textbox value="0,3" id="8"/> Вт <br/>
+
+   </product:techspecs>
+  </generic:content>
+</generic:root>
