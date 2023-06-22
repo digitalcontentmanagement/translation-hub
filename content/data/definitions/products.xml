@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products xmlns="http://www.dell.com/translation-hub/products">
+	<!--<group id="csg" name="CSG">
+		<product moduleId="acdam" name="Accidental Damage Services" folder="accidental-damage-services"/>
+		<product moduleId="reg" name="Regulatory" folder="regulatory"/>
+		<product moduleId="optdrv" name="Optical Drive" folder="optical-drive"/>
+		<product moduleId="os" name="Operating Systems" folder="operating-systems"/>
+		<product moduleId="wrnty" name="Warranty" folder="warranty"/>
+		<product moduleId="memry" name="Memory" folder="memory"/>
+		<product moduleId="proc" name="Processor" folder="processor"/>
+		<product moduleId="pwr" name="Power" folder="power"/>
+		<product moduleId="bttry" name="Primary Battery" folder="primary-battery"/>
+	</group>
+	<group id="isg" name="ISG">
+		<product moduleId="reg" name="Regulatory" folder="regulatory"/>
+		<product moduleId="os" name="Operating Systems" folder="operating-systems"/>
+		<product moduleId="proc" name="Processor" folder="processor"/>		
+	</group>
+	<group id="snp" name="Software &amp; Peripherals">
+		<product moduleId="pwr" name="Power" folder="power"/>
+		<product moduleId="reg" name="Regulatory" folder="regulatory"/>
+		<product moduleId="wrnty" name="Warranty" folder="warranty"/>
+	</group>
+	<group id="catchamp" name="Category Champion">
+		<product moduleId="pwr" name="Power" folder="power"/>
+		<product moduleId="reg" name="Regulatory" folder="regulatory"/>
+		<product moduleId="os" name="Operating Systems" folder="operating-systems"/>
+		<product moduleId="wrnty" name="Warranty" folder="warranty"/>
+	</group>-->
+    <group id="energylabels" name="Energy Labels">
+		<product moduleId="energygradearrowimage" name="Energy Grade Arrow Image" folder="energy-grade-arrow-image"/>
+		<product moduleId="energyguidetableimage" name="Energy Guide Table Image" folder="energy-guide-table-image"/>
+		<product moduleId="energyproductinformationtext" name="Energy Product Information Text" folder="energy-product-information-text"/>
+	</group>
+
+<!-- 
+processor	 proc
+operating system	os
+memory	memry
+primary hard drive	 hdrv
+primary battery	 bttry
+power	 pwr
+regulatory	reg
+warranty	wrnty
+in the box	itb
+ports	prts
+slots	slts
+dimensions	dimensns
+audio n speakers	audspk
+wireless	wirlss
+display	disply
+chassis	chass
+optical drive	optdrv
+video card	video
+camera	cmra
+keyboard	kybdm
+input	input
+networking	ntwrkng
+management	mgnt
+environmental	env
+security	sec
+performance	perf
+other switching	othswtch
+connectivity	cnnctvty
+battery life	btrlf
+software	sftwr
+case color	color
+mouse	mouse
+-->
+</products>

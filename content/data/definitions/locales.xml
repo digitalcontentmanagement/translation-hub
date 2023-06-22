@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<locales xmlns="http://www.dell.com/translation-hub/locales">
+  
+  <!--// ******************************-->
+  <!--// Start of Asia-Pacific & Japan -->
+  <!--// ******************************-->
+  <!-- Australia -->
+  <country name="au">
+    <language>en</language>
+    <culture>en-au</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- China -->
+  <country name="cn">
+    <language>en</language>
+    <culture>en-cn</culture>
+    <source>english</source>
+    <!-- Simplified Chinese -->
+    <alt-language name="zh">
+      <language>zh</language>
+      <culture>zh-cn</culture>
+      <source>simplified-chinese</source>
+    </alt-language>
+    <region>apj</region>    
+  </country>
+  
+  <!-- Hong Kong -->
+  <country name="hk">
+    <language>en</language>
+    <culture>en-hk</culture>
+    <source>english</source>
+    <!-- Traditional Chinese -->
+    <alt-language name="zh">
+      <language>zh</language>
+      <culture>zh-hk</culture>
+      <source>traditional-chinese</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Indonesia -->
+  <country name="id">
+    <language>en</language>
+    <culture>en-id</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- India -->
+  <country name="in">
+    <language>en</language>
+    <culture>en-in</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- Japan -->
+  <country name="jp">
+    <language>ja</language>
+    <culture>ja-jp</culture>
+    <source>japanese</source>
+    <!-- English -->
+    <alt-language name="en">
+      <language>en</language>
+      <culture>en-jp</culture>
+      <source>english</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Korea -->
+  <country name="kr">
+    <language>en</language>
+    <culture>en-kr</culture>
+    <source>english</source>
+    <!-- Korean -->
+    <alt-language name="ko">
+      <language>ko</language>
+      <culture>ko-kr</culture>
+      <source>korean</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Malaysia -->
+  <country name="my">
+    <language>en</language>
+    <culture>en-my</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- New Zealand -->
+  <country name="nz">
+    <language>en</language>
+    <culture>en-nz</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- Singapore -->
+  <country name="sg">
+    <language>en</language>
+    <culture>en-sg</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+ <!-- Thailand -->
+ <country name="th">
+    <language>en</language>
+    <culture>en-th</culture>
+   <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- Taiwan -->
+  <country name="tw">
+    <language>en</language>
+    <culture>en-tw</culture>
+    <source>english</source>
+    <!-- Traditional Chinese -->
+    <alt-language name="zh">
+      <language>zh</language>
+      <culture>zh-tw</culture>
+      <source>traditional-chinese</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+  <!--// ****************************-->
+  <!--// End of Asia-Pacific & Japan -->
+  <!--// ****************************-->
+  
+  <!--// ****************************************-->
+  <!--// Start of Europe, Middle East and Africa -->
+  <!--// ****************************************-->
+  <!-- Austria -->
+  <country name="at">
+    <language>en</language>
+    <culture>en-at</culture>
+    <source>english</source>
+    <!-- German -->
+    <alt-language name="de">
+      <language>de</language>
+      <culture>de-at</culture>
+      <source>german</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Belgium -->
+  <country name="be">
+    <language>en</language>
+    <culture>en-be</culture>
+    <source>english</source>
+    <!-- French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr-be</culture>
+      <source>french</source>
+    </alt-language>
+    <!--  Dutch -->
+    <alt-language name="nl">
+      <language>nl</language>
+      <culture>nl-be</culture>
+      <source>dutch</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Czech Republic -->
+  <country name="cz">
+    <language>en</language>
+    <culture>en-cz</culture>
+    <source>english</source>
+    <!-- Czech -->
+    <alt-language name="cs">
+      <language>cs</language>
+      <culture>cs-cz</culture>
+      <source>czech</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Denmark -->
+  <country name="dk">
+    <language>en</language>
+    <culture>en-dk</culture>
+    <source>english</source>
+    <!-- Danish -->
+    <alt-language name="da">
+      <language>da</language>
+      <culture>da-dk</culture>
+      <source>danish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Finland -->
+  <country name="fi">
+    <language>en</language>
+    <culture>en-fi</culture>
+    <source>english</source>
+    <!-- Finnish -->
+    <alt-language name="fi">
+      <language>fi</language>
+      <culture>fi-fi</culture>
+      <source>finnish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- France -->
+  <country name="fr">
+    <language>en</language>
+    <culture>en-fr</culture>
+    <source>english</source>
+    <!-- Euro French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr-fr</culture>
+      <source>french</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Germany -->
+  <country name="de">
+    <language>en</language>
+    <culture>en-de</culture>
+    <source>english</source>
+    <!-- German -->
+    <alt-language name="de">
+      <language>de</language>
+      <culture>de-de</culture>
+      <source>german</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Greece -->
+  <country name="gr">
+    <language>en</language>
+    <culture>en-gr</culture>
+    <source>english</source>
+    <!-- Greek -->
+    <alt-language name="el">
+      <language>el</language>
+      <culture>el-gr</culture>
+      <source>greek</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+  
+  <!-- Hungary-->
+  <country name="hu">
+    <language>en</language>
+    <culture>en-hu</culture>
+    <source>english</source>
+    <!-- Hungarian -->
+    <alt-language name="hu">
+      <language>hu</language>
+      <culture>hu-hu</culture>
+      <source>hungarian</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Ireland -->
+  <country name="ie">
+    <language>en</language>
+    <culture>en-ie</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+
+  <!-- Israel -->
+  <country name="il">
+    <language>en</language>
+    <culture>en-il</culture>
+    <source>english</source>
+    <!-- Hebrew -->
+    <alt-language name="he">
+      <language>he</language>
+      <culture>he-il</culture>
+      <source>hebrew</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+  
+  <!-- Italy -->
+  <country name="it">
+    <language>en</language>
+    <culture>en-it</culture>
+    <source>english</source>
+    <!-- Italian -->
+    <alt-language name="it">
+      <language>it</language>
+      <culture>it-it</culture>
+      <source>italian</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Luxembourg -->
+  <country name="lu">
+    <language>en</language>
+    <culture>en-lu</culture>
+    <source>english</source>
+    <!-- Euro French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr-lu</culture>
+      <source>french</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Middle East -->
+  <country name="ae">
+    <language>en</language>
+    <culture>en-ae</culture>
+    <source>english</source>
+    <!-- arabic -->
+    <alt-language name="ar">
+      <language>ar</language>
+      <culture>ar-ae</culture>
+      <source>arabic</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Netherlands -->
+  <country name="nl">
+    <language>en</language>
+    <culture>en-nl</culture>
+    <source>english</source>
+    <!-- Dutch -->
+    <alt-language name="nl">
+      <language>nl</language>
+      <culture>nl-nl</culture>
+      <source>dutch</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Norway -->
+  <country name="no">
+    <language>en</language>
+    <culture>en-no</culture>
+    <source>english</source>
+    <!-- Norwegian -->
+    <alt-language name="no">
+      <language>no</language>
+      <culture>no-no</culture>
+      <source>norwegian</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Poland -->
+  <country name="pl">
+    <language>en</language>
+    <culture>en-pl</culture>
+    <source>english</source>
+    <!-- Polish -->
+    <alt-language name="pl">
+      <language>pl</language>
+      <culture>pl-pl</culture>
+      <source>polish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Portugal -->
+  <country name="pt">
+    <language>en</language>
+    <culture>en-pt</culture>
+    <source>english</source>
+    <!-- Portuguese -->
+    <alt-language name="pt">
+      <language>pt</language>
+      <culture>pt-pt</culture>
+      <source>portuguese</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Romania -->
+  <country name="ro">
+    <language>en</language>
+    <culture>en-ro</culture>
+    <source>english</source>
+    <!-- Romanian -->
+    <alt-language name="ro">
+      <language>ro</language>
+      <culture>ro-ro</culture>
+      <source>romanian</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+  
+  <!-- Russia -->
+  <country name="ru">
+    <language>ru</language>
+    <culture>ru-ru</culture>
+    <source>russian</source>
+    <!-- English -->
+    <alt-language name="en">
+      <language>en</language>
+      <culture>en-ru</culture>
+      <source>english</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Slovakia -->
+  <country name="sk">
+    <language>en</language>
+    <culture>en-sk</culture>
+    <source>english</source>
+    <!-- Slovak -->
+    <alt-language name="sk">
+      <language>sk</language>
+      <culture>sk-sk</culture>
+      <source>slovene</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- South Africa -->
+  <!--<country name="za">
+    <language>en</language>
+	<culture>en_ZA</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>-->
+
+  <!-- Spain -->
+  <country name="es">
+    <language>en</language>
+    <culture>en-es</culture>
+    <source>english</source>
+    <!-- Euro Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-es</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Sweden -->
+  <country name="se">
+    <language>en</language>
+    <culture>en-se</culture>
+    <source>english</source>
+    <!-- Swedish -->
+    <alt-language name="sv">
+      <language>sv</language>
+	  <culture>sv-se</culture>
+      <source>swedish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Switzerland -->
+  <country name="ch">
+    <language>en</language>
+    <culture>en-ch</culture>
+    <source>english</source>
+    <!-- German -->
+    <alt-language name="de">
+      <language>de</language>
+      <culture>de-ch</culture>
+      <source>german</source>
+    </alt-language>
+    <!-- French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr-ch</culture>
+      <source>french</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Turkey -->
+  <country name="tr">
+    <language>en</language>
+    <culture>en-tr</culture>
+    <source>english</source>
+    <!-- Turkish -->
+    <alt-language name="tr">
+      <language>tr</language>
+	  <culture>tr-tr</culture>
+      <source>turkish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- United Kingdom -->
+  <country name="uk">
+    <language>en</language>
+	<culture>en-gb</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+  <!--// **************************************-->
+  <!--// End of Europe, Middle East and Africa -->
+  <!--// **************************************-->
+  
+  <!--// ***********************-->
+  <!--// Start of United States -->
+  <!--// ***********************-->
+  <!-- United States -->
+  <country name="us">
+    <language>en</language>
+    <culture>en-us</culture>
+    <source>english</source>
+    <region>us</region>
+  </country>
+  <!--// *********************-->
+  <!--// End of United States -->
+  <!--// *********************-->
+
+  <!--// ***********************-->
+  <!--// Start of Latin America -->
+  <!--// ***********************-->
+  <!-- Argentina -->
+  <country name="ar">
+    <language>en</language>
+    <culture>en-ar</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-ar</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Brazil -->
+  <country name="br">
+    <language>en</language>
+    <culture>en-br</culture>
+    <source>english</source>
+    <!-- Brazilian Portuguese -->
+    <alt-language name="pt">
+      <language>pt</language>
+	  <culture>pt-br</culture>
+      <source>portuguese</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Chile -->
+  <country name="cl">
+    <language>en</language>
+    <culture>en-cl</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-cl</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Colombia -->
+  <country name="co">
+    <language>en</language>
+    <culture>en-co</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-co</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Mexico -->
+  <country name="mx">
+    <language>en</language>
+    <culture>en-mx</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-mx</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Peru -->
+  <country name="pe">
+    <language>en</language>
+    <culture>en-pe</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-pe</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Venezuela -->
+  <country name="ve">
+    <language>en</language>
+    <culture>en-vl</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es-vl</culture>
+      <source>spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+  <!--// *********************-->
+  <!--// End of Latin America -->
+  <!--// *********************-->
+
+  <!--// ****************-->
+  <!--// Start of Canada -->
+  <!--// ****************-->
+  <!-- Canada -->
+  <country name="ca">
+    <language>en</language>
+    <culture>en-ca</culture>
+    <source>english</source>
+    <!-- Canada French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr-ca</culture>
+      <source>french</source>
+    </alt-language>
+    <region>ca</region>
+  </country>
+  <!--// **************-->
+  <!--// End of Canada -->
+  <!--// **************-->
+
+</locales>
+
+
+
+
+
+
+
+
+
+
+
+
+
