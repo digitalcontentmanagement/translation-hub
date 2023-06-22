@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Power</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  <!-- CSG Power -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+
+	   <option id="1"><textbox value = "45" id = "1" /> محول تيار متردد وات ، <textbox value = "4.5" id = "2" /> ملم <br/></option>
+       <option id="2"><textbox value = "65" id = "3" /> محول التيار المتردد وات ، <textbox value = "4.5" id = "4" /> ملم <br/></option>
+
+   </product:techspecs>
+   
+   <!-- SnP Power -->
+   <product:techspecs filter="$(product.group) $in$ ['snp']">
+
+     الجهد الكهربي المطلوب<br/>
+     من <textbox value="100" id="1"/> إلى <textbox value="240" id="2"/> فولت من التيار المتردد / <textbox value="50" id="3"/> أو <textbox value="60" id="4"/> هرتز ± <textbox value="3" id="5"/> هرتز / <textbox value="1" id="6"/> أمبير <dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+     استهلاك الطاقة (أثناء التشغيل)<br/>
+	 <textbox value="20" id="7"/> واط <dropdownlist id="pw-option:2"/> / <textbox value="45" id="8"/> واط <dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 استهلاك الطاقة أثناء وضع الاستعداد / السكون<br/>
+	 أقل من <textbox value="0.3" id="9"/> واط<br/>
+	 
+	</product:techspecs>
+	
+	<!-- C.Champ Power -->
+   <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+
+     الجهد الكهربي المطلوب<br/>
+     من <textbox value="100" id="1"/> إلى <textbox value="240" id="2"/> فولت من التيار المتردد / <textbox value="50" id="3"/> أو <textbox value="60" id="4"/> هرتز ± <textbox value="3" id="5"/> هرتز / <textbox value="1" id="6"/> أمبير <dropdownlist id="pw-option:1"/><br/>
+	 <br/>
+     استهلاك الطاقة (أثناء التشغيل)<br/>
+	 <textbox value="20" id="7"/> واط <dropdownlist id="pw-option:2"/> / <textbox value="45" id="8"/> واط <dropdownlist id="pw-option:3"/><br/>
+	 <br/>
+	 استهلاك الطاقة أثناء وضع الاستعداد / السكون<br/>
+	 أقل من <textbox value="0.3" id="9"/> واط<br/>
+
+	</product:techspecs>
+  </generic:content>
+</generic:root>

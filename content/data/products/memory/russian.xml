@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+   <product:techspecs>
+	 <option id="1"><dropdownlist id="unit-byte:1"/>, <textbox value="1" id="1"/> x <dropdownlist id="unit-byte:2"/>, DDR4, <textbox value="2666" id="2"/> МГц<br/></option>
+	 <option id="2"><dropdownlist id="unit-byte:3"/>, <textbox value="1" id="3"/> x <dropdownlist id="unit-byte:4"/>, DDR4, <textbox value="2666" id="4"/> МГц<br/></option>
+	 <option id="3"><dropdownlist id="unit-byte:5"/>, <textbox value="1" id="5"/> x <dropdownlist id="unit-byte:6"/>, DDR4, <textbox value="2933" id="6"/> МГц<br/></option>
+   </product:techspecs>
+  </generic:content>
+</generic:root>

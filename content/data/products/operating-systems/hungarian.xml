@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Operating Systems</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  <!-- CSG OS -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+	 <option id="1">Windows 10 <dropdownlist id="os-option:1"/>, <dropdownlist id="bit-option:1"/><br/></option>
+	 <option id="2">Windows 10 <dropdownlist id="os-option:2"/>, <dropdownlist id="bit-option:2"/><br/></option>
+   </product:techspecs>
+   
+   <!-- ISG OS -->
+   <product:techspecs filter="$(product.group) $in$ ['isg']">
+     <option id="1">Canonical<reg/> Ubuntu<reg/> LTS<br/></option>
+	 <option id="2">Citrix<reg/> Hypervisor<reg/><br/></option>
+	 <option id="3">Microsoft<reg/> Windows Server<reg/> Hyper-V funkcióval<br/></option>
+	 <option id="4">Red Hat<reg/> Enterprise Linux<br/></option>
+	 <option id="5">SUSE<reg/> Linux Enterprise Server<br/></option>
+	 <option id="6">VMware<reg/> ESXi<reg/><br/></option>
+   </product:techspecs>
+   
+   <!-- Cat. champ (responsive page) OS -->
+   <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+     <textbox value="2.4" id="1"/> GHz/Bluetooth<br/>
+	 - Windows 7, 8, 8.1 és 10; Mac; Linux (Redhat / Ubuntu); Króm; és az Android OS<br/>
+   </product:techspecs>
+   
+  </generic:content>
+</generic:root> 
