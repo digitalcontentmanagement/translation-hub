@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Warranty</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  <!-- CSG warranty -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+	    <option id="1"><dropdownlist id="year-option:1"/> гарантия на оборудование с домашним / локальным сервером после удаленной диагностики <br/></option>
+        <option id="2"><dropdownlist id="year-option:2"/> ProSupport с обслуживанием на месте на следующий рабочий день <br/></option>
+        <option id="3"><dropdownlist id="year-option:3"/> ProSupport Plus с обслуживанием на месте на следующий рабочий день <br/></option>
+   </product:techspecs>
+   
+   <!-- SnP/Cat champ warranty -->
+   <product:techspecs filter="$(product.group) $in$ ['snp']">
+     Стандартный план обслуживания<br/>
+     <dropdownlist id="year-option:1"/> Расширенное обслуживание с заменой и ограниченная гарантия на оборудование <br/>
+   </product:techspecs>
+   
+      <!-- SnP/Cat champ warranty -->
+   <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+     Стандартный план обслуживания<br/>
+     <dropdownlist id="year-option:1"/> Расширенное обслуживание с заменой и ограниченная гарантия на оборудование <br/>
+   </product:techspecs>
+   
+  </generic:content>
+</generic:root>

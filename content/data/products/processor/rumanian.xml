@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Processor</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+   <product:techspecs>
+   <stringlookup ref="quality"/>
+	 Procesor Intel<reg/> Core<tm/> <textbox value="i5-10300H" id="1"/> din a <textbox value="10-a" id="2"/> generație, memorie cache de <textbox value="8" id="3"/> MB, <textbox value="4" id="4"/> nuclee, <textbox value="2,50" id="5"/> GHz până la <textbox value="4,50" id="6"/> GHz</br>
+	 Procesor Intel<reg/> Core<tm/> <textbox value="i7-10750H" id="7"/> din a <textbox value="10-a" id="8"/> generație, memorie cache de <textbox value="12" id="9"/> MB, <textbox value="6" id="10"/> nuclee, <textbox value="2,60" id="11"/> GHz până la <textbox value="5" id="12"/> GHz</br>
+	 Procesor Intel<reg/> Core<tm/> <textbox value="i9-10885H" id="13"/> din a <textbox value="10-a" id="14"/> generație, memorie cache de <textbox value="16" id="15"/> MB, <textbox value="8" id="16"/> nuclee, <textbox value="2,40" id="17"/> GHz până la <textbox value="5,30" id="18"/> GHz</br>
+	   	   <stringlookup ref="quality"/><stringlookup ref="quality"/><stringlookup ref="quality"/><stringlookup ref="quality"/>
+   </product:techspecs>
+  </generic:content>
+</generic:root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Regulatory</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+   <product:techspecs>
+    <link ref="http://www.dell.com/learn/product-info-datasheets-safety-emc-environmental?s=corp">Dati ambientali, di compatibilità elettromagnetica e di sicurezza del prodotto</link> (in inglese)<br/>
+    <link ref="http://www.dell.com/learn/regulatory-compliance?s=corp">Home page Dell sulla conformità alle normative</link> (in inglese)<br/>
+	<link ref="http://www.dell.com/learn/dell-environment?s=corp">Dell e l'ambiente</link><br/>
+   </product:techspecs>
+  </generic:content>
+</generic:root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Warranty</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+  <!-- CSG warranty -->
+   <product:techspecs filter="$(product.group) $in$ ['csg']">
+	   <option id="1"><dropdownlist id="year-option:1"/> Hardware-Garantie mit Heim- / Vor-Ort-Server nach Ferndiagnose <br/></option>
+       <option id="2"><dropdownlist id="year-option:2"/> ProSupport mit Vor-Ort-Service am nächsten Werktag <br/></option>
+       <option id="3"><dropdownlist id="year-option:3"/> ProSupport Plus mit Vor-Ort-Service am nächsten Werktag <br/></option>
+   </product:techspecs>
+   
+   <!-- SnP warranty -->
+   <product:techspecs filter="$(product.group) $in$ ['snp']">
+     Standard Service Plan <br/>
+     <dropdownlist id="year-option:1"/> Erweiterter Exchange-Service und eingeschränkte Hardwaregarantie <br/>
+   </product:techspecs>
+   
+      <!-- Cat champ warranty -->
+   <product:techspecs filter="$(product.group) $in$ ['catchamp']">
+     Standard Service Plan <br/>
+     <dropdownlist id="year-option:1"/> Erweiterter Exchange-Service und eingeschränkte Hardwaregarantie <br/>
+   </product:techspecs>
+   
+  </generic:content>
+</generic:root>
