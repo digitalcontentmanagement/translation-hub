@@ -1,0 +1,221 @@
+		body {font-family: arial; color: #FFF;font-size: 11px;background: #CCC;margin: 0px;padding: 0px;}
+		header {-webkit-transform: translate3d(0,0,0);margin: 0px; padding: 15px 30px;background: #0085C3;overflow: hidden;transition: 0.4s;z-index: 99;}
+		nav
+		{
+			overflow: hidden;
+			z-index: 98;
+			padding: 85px 25px 25px 25px;
+			background: #0085C3;
+			background-image: linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+			background-image: -o-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+			background-image: -moz-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+			background-image: -webkit-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+			background-image: -ms-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+			border-bottom: 2px solid #0085C3;
+			box-shadow: 0px 3px 3px #909090;
+		}
+		#navigator {
+		  padding: 10px 16px;
+		  color: #f1f1f1;
+		}
+		.sticky {
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+
+		.sticky + .content {
+		  padding-top: 102px;
+		}
+
+		.collapsible:before, .collapsible2:before {font-size:13px; font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f150"; padding: 0 5px 0 0;}
+		.active:before {font-size:13px; font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f151"; padding: 0 5px 0 0;}
+
+		.collapsible, .collapsible2 {;
+		  background: #1598d5;
+		  background-image: linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -o-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -moz-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -webkit-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -ms-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  color: #FFF;
+		  cursor: pointer;
+		  padding: 8px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 12px;
+		  border: 1px solid #12a5ea;
+		  font-weight: bold;
+		  margin: 0 0 5px 0;
+		  border-radius: 3.5px;
+		}
+		.active, .collapsible:hover, .collapsible2:hover {
+		  background: #999999;
+		  background-image: linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -o-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -moz-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -webkit-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -ms-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  border: 1px solid #808080;
+		}
+		select, input
+		{
+			margin: 0px;
+			padding: 0 3px;
+			border: 1px solid #C0C0C0;
+			color: #404040;
+			font-size: 11px;
+			height: 18px;
+		}
+		input:focus, input:focus:hover, select:focus, select:focus:hover
+		{
+			outline: #99CCFF solid 1px;
+			box-shadow: 0px 0px 3px #99CCFF;
+			border: 1px solid #6699CC;
+		}
+		input[type="checkbox"] {
+			margin: 0 5px 2px 0;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.loader {width: 50px; height: 31px;}
+		#counter {height: 30px;display: block;}
+		#editor {text-align: left;}
+		#information {text-align: left; width: 100%; display: inline-block;}
+		#bar {display: block; width: 100%; border-bottom: 1px solid #C0C0C0; padding: 0px 10px 5px 10px; font-size:11px; font-weight: bold; color: #404040;}
+		.col {float: left; padding: 15px 5px;font-size: 11px; line-height: 15px;}
+		.opt {padding: 6px !important;line-height: 32px !important;}
+		.strikeoff {text-decoration: line-through wavy #FF6600; background: #CCCCCC;color: #FFFFFF}
+		div[class*='html'] .strikeoff {display: none; visibility: hidden;}
+	
+		#editingzone input:focus, #editingzone input:focus:hover, #editingzone select:focus, #editingzone select:focus:hover
+		{
+			outline: #99CCFF solid 1px;
+			box-shadow: 0px 0px 3px #99CCFF;
+			border: 1px solid #6699CC;
+			position: relative;/* Twin control outline highlight */
+			z-index: 2;
+		}
+		#editingzone input:hover, #editingzone select:hover
+		{
+			outline: none;
+			border: 1px solid #444444;
+			position: relative;/* Twin control outline highlight */
+			z-index: 1;
+		}
+		#editingzone span[name], #results span[name], div[class*='html'] span[name]
+		{
+			border: 1px dashed #808080;
+			padding: 3px 3px;
+		}
+		#editingzone input
+		{
+			border: 1px solid #808080;
+			background-color: #FFFFFF;
+		}
+		#editingzone tester+input, #editingzone tester+select, #editingzone select+input, #editingzone select+select, #editingzone span[name]+span[name]
+		{
+			margin-left: -0.1em;
+		}
+		#editingzone select
+		{
+			padding: 1px;
+			border: 1px solid #808080;
+			background-color: #FFFFFF;
+		}
+		span.htmllabel {background-color: #808080; color: #FFFFFF;display: inline-block;padding:4px 7px;margin: 0 0 5px 0;font-size: 10px;float: left;}
+		#results span.htmllabel {padding: 0px 7px}
+		.richhtml, .rawhtml
+		{
+			width: 49.6%;
+			text-align: left;
+			background: #FCFCFC;
+			border: 1px dotted #808080;
+			padding: 10px;
+			height: 100%;
+		}
+		.display, .source
+		{
+			padding: 5px 2px;
+		}
+		.richhtml
+		{
+			float: left;
+		}
+		.rawhtml
+		{
+			float: right;
+		}
+		.clear {clear: both;}
+		.copy {display: inline-block;float: right;text-align: right;}
+		.copyButton {font-size: 10px;width: 60px; height: 25px;}
+		#container .collapsible, #container .collapsible2 {;
+		  background: #1598d5;
+		  background-image: linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -o-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -moz-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -webkit-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  background-image: -ms-linear-gradient(bottom, #1598d5 18%, #0085C3 57%);
+		  border: 1px solid #12a5ea;
+		  border-radius: 3.5px 3.5px 0 0;
+		}
+		#container .active, #container .collapsible:hover, #container .collapsible2:hover {
+		  background: #999999;
+		  background-image: linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -o-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -moz-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -webkit-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  background-image: -ms-linear-gradient(bottom, #949292 20%, #999999 57%);
+		  border: 1px solid #808080;
+		}
+		#container .active
+		{
+		  box-shadow: 0px 2px 2px #909090;
+		  border-radius: 3.5px;
+		}
+		#container .content
+		{
+			background: #F9F9F9;
+			border: 1px solid #808080;
+			padding: 10px;
+			margin: -5px 0 5px 0;
+			box-shadow: 0px 2px 2px #909090;
+			border-radius: 0 0 3.5px 3.5px;
+			min-height: 50px;
+		}
+		.split {float: left; width: 50%;padding: 0px 2.5px 5px 0px;}
+		div.split + div {padding: 0 0 0 2.5px}
+		/*textarea {margin: 5px 0px;height: 150px !important; resize: none;}*/
+		#results, #editingzone {line-height: 25px;text-align: center; clear: both; margin: 0 0 5px 0;font-size:13px;padding: 10px;width: 100%;color: #444; height: auto;display:block;border: 1px dashed #F0F0F0;background: #F0F0F0;border-radius: 3.5px;min-height: 60px;}
+				
+		.content {
+		  padding: 0px 0px;
+		  display: none;
+		  overflow: hidden;
+		}
+		main
+		{
+			color: #404040;
+			padding: 0 16px 45px 16px;
+			margin: 0px;
+			height: 100%;
+		}
+		#container
+		{
+			width: 100%;
+			height: 100%;
+			padding: 15px 0px;
+		}
+		li
+		{
+			line-height: 20px;
+		}
+		.reg, .tm, .cpy, .tch
+		{
+			vertical-align: super;
+			border: 0px !important;
+		}
+		footer {background: #0085C3;border-top: 1px solid #1598d5;bottom: 0;left: 0;position: fixed;width: 100%;z-index: 1000;padding: 10px 20px; color: #F0F0F0;box-shadow: 3px 0px 3px #909090;}
+		
