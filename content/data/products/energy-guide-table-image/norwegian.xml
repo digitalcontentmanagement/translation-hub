@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Energy Guide Table Image</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+   <product:techspecs>
+   
+	 EU energimerking: A (høyeste):G (laveste); <textbox value="UP2720Q" id="product-number"/> merking: <dropdownlist id="energy-rating:1"/>, <textbox value="16" id="energy-use"/> kWh/1000H; oppløsning: <textbox value="1920" id="resolution-x"/> by <textbox value="1080" id="resolution-y"/> PX; diagonalt mål: <textbox value="22" id="inches"/> tommer, <textbox value="55" id="centimeters"/> CM; QR-kode tilgjengelig på bildet for mer informasjon
+	   
+   </product:techspecs>
+  </generic:content>
+</generic:root>

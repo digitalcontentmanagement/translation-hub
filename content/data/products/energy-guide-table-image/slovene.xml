@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/translation-hub/content" xmlns:meta="http://www.dell.com/translation-hub/metaproperties" xmlns:generic="http://www.dell.com/translation-hub/generic" xmlns:product="http://www.dell.com/translation-hub/product">
+  <generic:properties>
+    <meta:title>Energy Guide Table Image</meta:title>
+    <meta:date value="2020-10-05" />
+    <meta:creator value="Lim, Hock Heng"/>
+    <meta:publisher value="Product Content Echo" />
+  </generic:properties>
+  <generic:content>
+   <product:techspecs>
+   
+	 Energetická škála EÚ: A (Najvyšší): G (Najnižší); <textbox value="UP2720Q" id="product-number"/> hodnotenie: <dropdownlist id="energy-rating:1"/>., <textbox value="16" id="energy-use"/>  kWh/1000 hod.; rozlíšenie: <textbox value="1920" id="resolution-x"/> podľa <textbox value="1080" id="resolution-y"/> PX; uhlopriečne rozmery: <textbox value="22" id="inches"/> palce, <textbox value="55" id="centimeters"/> cm; Ďalšie informácie o kódu Q sú uvedené na obrázku
+	
+   </product:techspecs>
+  </generic:content>
+</generic:root>
